@@ -3,6 +3,11 @@
     "displayName": "language-haskell-exts",
     "description": "Haskell Syntax Extensions",
     "version": "0.0.1",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/lierdakil/vscode-language-haskell-exts"
+	},
+	"publisher": "lierdakil",
     "engines": {
         "vscode": "^1.72.0"
     },
