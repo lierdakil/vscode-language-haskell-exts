@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "source.haskell.injection.ctors",
+  "injectionSelector": "L:source.haskell -meta",
+  "patterns": [
+    {
+      "name": "constant.other.haskell.prelude.$1",
+      "match": "(?<![\\p{Ll}_\\p{Lu}\\p{Lt}'])(False|True|Left|Right|LT|EQ|GT|Nothing|Just)(?![\\p{Ll}_\\p{Lu}\\p{Lt}\\p{Nd}'])"
+    }
+  ]
+}

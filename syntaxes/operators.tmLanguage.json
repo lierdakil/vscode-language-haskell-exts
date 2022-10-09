@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "source.haskell.injection.operators",
+  "injectionSelector": "L:source.haskell -meta -comment -string",
+  "patterns": [
+    {
+      "name": "keyword.operator.infix.haskell.prelude.$1",
+      "match": "(?<![\\p{S}\\p{P}](?<![(),;\\[\\]`{}_\"']))(&&|-|/|/=|<|<=|<>|<\\*|<\\*>|=<<|==|>|>=|>>|>>=|\\*|\\*>|\\*\\*|\\+|\\+\\+|\\.|\\^|\\^\\^|\\|\\||<\\$|<\\$>|\\$|\\$!)(?![\\p{S}\\p{P}](?<![(),;\\[\\]`{}_\"']))"
+    }
+  ]
+}

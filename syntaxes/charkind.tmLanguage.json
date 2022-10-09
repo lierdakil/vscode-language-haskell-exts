@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "source.haskell.injection.charkind",
+  "injectionSelector": "L:meta",
+  "patterns": [
+    {
+      "name": "string.quoted.single.haskell",
+      "match": "(?<![\\p{Ll}_\\p{Lu}\\p{Lt}'])(')(?:[^']|\\\\(NUL|SOH|STX|ETX|EOT|ENQ|ACK|BEL|BS|HT|LF|VT|FF|CR|SO|SI|DLE|DC1|DC2|DC3|DC4|NAK|SYN|ETB|CAN|EM|SUB|ESC|FS|GS|RS|US|SP|DEL|[abfnrtv\\\\\"'&])|(\\\\o[0-7]+)|(\\\\x[0-9A-Fa-f]+)|(\\\\\\^[A-Z@\\[\\]\\\\^_])|)(')",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.string.begin.haskell"
+        },
+        "2": {
+          "name": "constant.character.escape.haskell"
+        },
+        "3": {
+          "name": "constant.character.escape.octal.haskell"
+        },
+        "4": {
+          "name": "constant.character.escape.hexadecimal.haskell"
+        },
+        "5": {
+          "name": "constant.character.escape.control.haskell"
+        },
+        "6": {
+          "name": "punctuation.definition.string.end.haskell"
+        }
+      }
+    }
+  ]
+}

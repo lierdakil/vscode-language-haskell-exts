@@ -1,0 +1,41 @@
+{
+    "name": "language-haskell-exts",
+    "displayName": "language-haskell-exts",
+    "description": "Haskell Syntax Extensions",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "path": "./syntaxes/functions.tmLanguage.json",
+                "scopeName": "source.haskell.injection.functions",
+                "injectTo": ["source.haskell"]
+            },
+            {
+                "path": "./syntaxes/operators.tmLanguage.json",
+                "scopeName": "source.haskell.injection.operators",
+                "injectTo": ["source.haskell"]
+            },
+            {
+                "path": "./syntaxes/types.tmLanguage.json",
+                "scopeName": "source.haskell.injection.types",
+                "injectTo": ["source.haskell"]
+            },
+            {
+                "path": "./syntaxes/ctors.tmLanguage.json",
+                "scopeName": "source.haskell.injection.ctors",
+                "injectTo": ["source.haskell"]
+            },
+            {
+                "path": "./syntaxes/charkind.tmLanguage.json",
+                "scopeName": "source.haskell.injection.charkind",
+                "injectTo": ["source.haskell"]
+            }
+        ]
+    }
+}
