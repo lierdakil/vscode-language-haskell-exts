@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "language-haskell-exts" extension will be documented in this file.
+## v0.0.2
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Omit charkind, ctors, types rules from comments and strings
 
-## [Unreleased]
+## v0.0.1
 
 - Initial release
