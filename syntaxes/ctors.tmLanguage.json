@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "scopeName": "source.haskell.injection.ctors",
-  "injectionSelector": "L:source.haskell -meta",
+  "injectionSelector": "L:source.haskell -meta -comment -string",
   "patterns": [
     {
       "name": "constant.other.haskell.prelude.$1",

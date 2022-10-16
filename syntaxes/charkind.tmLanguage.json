@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "scopeName": "source.haskell.injection.charkind",
-  "injectionSelector": "L:meta",
+  "injectionSelector": "L:meta -comment -string",
   "patterns": [
     {
       "name": "string.quoted.single.haskell",

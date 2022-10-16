@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "scopeName": "source.haskell.injection.types",
-  "injectionSelector": "L:meta",
+  "injectionSelector": "L:meta -comment -string",
   "patterns": [
     {
       "name": "storage.type.haskell.class.prelude.$1",
