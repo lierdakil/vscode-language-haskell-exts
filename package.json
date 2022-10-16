@@ -1,46 +1,62 @@
 {
-    "name": "language-haskell-exts",
-    "displayName": "language-haskell-exts",
-    "description": "Haskell Syntax Extensions",
-    "version": "0.0.1",
-    "repository": {
+	"name": "language-haskell-exts",
+	"displayName": "language-haskell-exts",
+	"description": "Haskell Syntax Extensions",
+	"version": "0.0.1",
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/lierdakil/vscode-language-haskell-exts"
 	},
 	"publisher": "lierdakil",
-    "engines": {
-        "vscode": "^1.72.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "grammars": [
-            {
-                "path": "./syntaxes/functions.tmLanguage.json",
-                "scopeName": "source.haskell.injection.functions",
-                "injectTo": ["source.haskell"]
-            },
-            {
-                "path": "./syntaxes/operators.tmLanguage.json",
-                "scopeName": "source.haskell.injection.operators",
-                "injectTo": ["source.haskell"]
-            },
-            {
-                "path": "./syntaxes/types.tmLanguage.json",
-                "scopeName": "source.haskell.injection.types",
-                "injectTo": ["source.haskell"]
-            },
-            {
-                "path": "./syntaxes/ctors.tmLanguage.json",
-                "scopeName": "source.haskell.injection.ctors",
-                "injectTo": ["source.haskell"]
-            },
-            {
-                "path": "./syntaxes/charkind.tmLanguage.json",
-                "scopeName": "source.haskell.injection.charkind",
-                "injectTo": ["source.haskell"]
-            }
-        ]
-    }
+	"engines": {
+		"vscode": "^1.72.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"path": "./syntaxes/functions.tmLanguage.json",
+				"scopeName": "source.haskell.injection.functions",
+				"injectTo": [
+					"source.haskell"
+				]
+			},
+			{
+				"path": "./syntaxes/operators.tmLanguage.json",
+				"scopeName": "source.haskell.injection.operators",
+				"injectTo": [
+					"source.haskell"
+				]
+			},
+			{
+				"path": "./syntaxes/types.tmLanguage.json",
+				"scopeName": "source.haskell.injection.types",
+				"injectTo": [
+					"source.haskell"
+				]
+			},
+			{
+				"path": "./syntaxes/ctors.tmLanguage.json",
+				"scopeName": "source.haskell.injection.ctors",
+				"injectTo": [
+					"source.haskell"
+				]
+			},
+			{
+				"path": "./syntaxes/charkind.tmLanguage.json",
+				"scopeName": "source.haskell.injection.charkind",
+				"injectTo": [
+					"source.haskell"
+				]
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8443fd88-d426-4997-9425-212fed4670de",
+		"publisherDisplayName": "lierdakil",
+		"publisherId": "70a25767-eb44-4939-9052-6aaf21f6c7b5",
+		"isPreReleaseVersion": false
+	}
 }
